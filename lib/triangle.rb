@@ -6,6 +6,12 @@ class Triangle
     @b = b 
     @c = c 
   end 
+  
+  def kind 
+    if a == b == c 
+      :equilateral 
+      
+  end 
 
       
   class TriangleError < StandardError

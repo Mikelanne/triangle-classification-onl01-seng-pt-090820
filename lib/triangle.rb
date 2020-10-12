@@ -21,7 +21,7 @@ class Triangle
   def valid_triangle
     triangle = [(a + b > c), (a + c > b), (b + c > a)]
     (a, b, c). each do |side|
-      
+      triangle << false 
 
       
   class TriangleError < StandardError

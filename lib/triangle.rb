@@ -19,7 +19,7 @@ class Triangle
   end 
   
   def valid_triangle
-    
+    triangle = 
 
       
   class TriangleError < StandardError

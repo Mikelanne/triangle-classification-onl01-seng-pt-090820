@@ -8,7 +8,8 @@ class Triangle
   end 
   
   def kind 
-    if a == b == c 
+    valid_triangle
+    if a == b && b == c 
       :equilateral 
       
   end 

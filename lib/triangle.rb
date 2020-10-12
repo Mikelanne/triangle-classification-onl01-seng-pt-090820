@@ -11,6 +11,7 @@ class Triangle
     valid_triangle
     if a == b && b == c 
       :equilateral 
+    elsif
       
   end 
 

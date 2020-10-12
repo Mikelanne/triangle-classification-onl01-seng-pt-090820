@@ -19,10 +19,10 @@ class Triangle
   end 
   
   def valid_triangle
-    triangle = [(a + b > c), (a + c > b), (b + c > a)]
+    real_triangle = [(a + b > c), (a + c > b), (b + c > a)]
     [a, b, c].each do |side|
       triangle << false if side is <= 0 
-      raise TriangleError if triangle.include?(false)
+      raise TriangleError if real_triangle.include?(false)
     end 
   end 
 
